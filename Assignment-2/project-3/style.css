@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #0a070a;
+  /* padding: 1rem 2rem; */
+}
+
+.title h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+.title img {
+  width: 30%;
+  height: 2rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.container {
+  height: 25rem;
+  width: 15rem;
+  background-color: #1c1717;
+  border-radius: 2rem;
+}
+
+.image {
+  height: 60%;
+  width: 100%;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sunset {
+  text-align: center;
+}
+
+.sunset h3 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.sunset .para {
+  color: #c1c1c1;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.line {
+  height: 0.15rem;
+  width: 20%;
+  background-color: #855029;
+}
+
+.price {
+  color: #d47724;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+  border: 2px solid #d47724;
+  box-shadow: 0 0 10px #d47724;
+  transition: all 0.35s ease-out;
+}
+.signature {
+  border: 1px solid #d47724;
+  display: flex;
+  gap: 0.3rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 2rem;
+  padding: 0.3rem 0.6rem;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+}
+.signature p {
+  color: #d47724;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  height: 25rem;
+  width: 90%;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  background-color: #13110f;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.left {
+  height: 100%;
+  width: 30%;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  position: relative;
+}
+
+.special {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.chef {
+  color: #d47724;
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  font-weight: 500;
+}
+
+.special h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.infos {
+  color: #7a6d6d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.paragraph {
+  line-height: 1.4rem;
+}
+
+.explore button {
+  color: #d47723;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #13110f;
+  border: none;
+  padding: 0.8rem 3rem;
+  border: 2px solid #d47723;
+  border-radius: 3rem;
+}
+
+.photo {
+  height: 25rem;
+  width: 25rem;
+  position : absolute;
+  top: -2.5rem;
+  right: -26rem;
+}
+.photo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.line1 {
+  height: 0.15rem;
+  width: 100%;
+  background-color: #d47723;
+  margin-bottom: 2rem;
+}
+
+.trade {
+  color: #7a6d6d;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.dot {
+  height: 0.3rem;
+  width: 0.3rem;
+  background-color: #d47723;
+  border-radius: 50%;
+}
+.visit a, .follow p {
+  color: #7a6d6d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.follow i {
+  color: #d47723;
+  font-size: 1.4rem;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
